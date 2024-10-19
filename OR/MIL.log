@@ -1,9 +1,0 @@
-pnlAddPane();
-nil
-1
-designOpen("D:\\mos-gnrfet\\or\\or.sp");
-"D0"
-t
-pnlDeletePane(1, 1);
-nil
-nil
