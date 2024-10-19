@@ -1,3 +1,0 @@
-$DATA1 SOURCE='HSPICE' VERSION='J-2014.09-SP2-2 64-BIT'
-.TITLE 'ternary half adder'
- avgpower         peakpower        temper           alter#          
