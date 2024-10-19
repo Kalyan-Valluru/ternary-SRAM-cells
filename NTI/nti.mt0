@@ -1,4 +1,0 @@
-$DATA1 SOURCE='HSPICE' VERSION='J-2014.09-SP2-2 64-BIT'
-.TITLE 'nti gate'
- avgpower         peakpower        temper           alter#          
-  2.541e-007       3.121e-005       2.500e+001      1               
