@@ -1,0 +1,15 @@
+* "simulator" "HSPICE" 
+* "version" "J-2014.09-SP2-2 64-BIT"
+* "format" "HSP"
+* "rundate" "00:29:11 09/29/2024 "
+* "netlist" "pti.sp "
+* "runtitle" "pti gate"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ a = 0.000e+00       
++ op = 9.000e-01       
+***   END: Saved Operating Point ***                     

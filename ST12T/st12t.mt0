@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='J-2014.09-SP2-2 64-BIT'
+.TITLE '* 12t ternary st sram cell using gnrfets'
+ avgpower         temper           alter#          
+  4.532e-005       2.500e+001      1               

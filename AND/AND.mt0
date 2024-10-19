@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='J-2014.09-SP2-2 64-BIT'
+.TITLE '* ternary and gate using gnrfet technology'
+ avgpower         peakpower        temper           alter#          
+  4.390e-007       2.846e-006       2.500e+001      1               

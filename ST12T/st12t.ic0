@@ -1,0 +1,18 @@
+* "simulator" "HSPICE" 
+* "version" "J-2014.09-SP2-2 64-BIT"
+* "format" "HSP"
+* "rundate" "01:23:47 09/29/2024 "
+* "netlist" "st12t.sp "
+* "runtitle" "* 12t ternary st sram cell using gnrfets"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ a = 0.000e+00       
++ d = 2.159e-02       
++ op = 1.200e+00       
++ x = 1.136e-10       
++ z = 1.200e+00       
+***   END: Saved Operating Point ***                     

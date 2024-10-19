@@ -1,0 +1,4 @@
+$DATA1 SOURCE='HSPICE' VERSION='J-2014.09-SP2-2 64-BIT'
+.TITLE 'tnor gate'
+ avgpower         peakpower        temper           alter#          
+  1.013e-005       3.231e-005       2.500e+001      1               

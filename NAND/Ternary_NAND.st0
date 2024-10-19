@@ -1,0 +1,69 @@
+***** HSPICE -- J-2014.09-SP2-2 64-BIT (Apr 17 2015) win64 ******
+ Input File: ternary_nand.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   DELL                 HOSTNAME: DESKTOP-7ITPLTQ
+ lic: HOSTID: "c03eba3298b7 18473d25e973 1a473d25e973 2a473d25e973" PID:      7820
+ lic: Using FLEXlm license file:
+ lic: 27000@DESKTOP-7ITPLTQ
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 30-dec-2030/2020.12
+ lic: 1(in_use)/99(total) FLOATING license(s) on SERVER 27000@DESKTOP-7ITPLTQ
+ lic:
+ init: begin read circuit files,  cpu clock=  1.89E-01
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\behave\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\behave\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\AD\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\XILINX\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\TLINE\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\TI\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\SIGNET\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\PCI\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\LIN_TEC
+                         H\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\PET\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\DI0\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\COMLINE
+                         \
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\BURR_BR
+                         M\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\BJT\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\behave\
+       option search = C:\synopsys\Hspice_J-2014.09-SP2-2\parts\AD\
+       option runlvl
+       option post
+       option autostop
+       option ingold =     2.00
+       option dcon =     1.00
+       option gshunt =    1.000E-12
+       option rmin =    1.000E-15
+       option abstol =    1.000E-05
+       option absvdc =    1.000E-04
+       option reltol =    1.000E-02
+       option relvdc =    1.000E-02
+       option numdgt =     4.00
+       option pivot =     1.00
+ init: end read circuit files,  cpu clock=  2.01E-01 peak memory=        41 mb
+ init: begin check errors,  cpu clock=  2.01E-01
+ init: end check errors,  cpu clock=  2.50E-01 peak memory=        44 mb
+ init: begin setup matrix, pivot=     1 cpu clock=  2.50E-01
+       establish matrix -- done,  cpu clock=  2.50E-01 peak memory=        44 mb
+       re-order matrix -- done,  cpu clock=  2.55E-01 peak memory=        44 mb
+ init: end setup matrix,  cpu clock=  2.55E-01 peak memory=        44 mb
+ dcop: begin dcop,  cpu clock=  2.55E-01
+ dcop: end dcop,  cpu clock=  3.75E-01 peak memory=        44 mb  tot_iter=      32
+ output: ternary_nand.mt0
+ sweep: tran tran0    begin, stop_t=  9.00E-08 #sweeps= 451 cpu clock=  3.80E-01
+ tran: time= 9.9000E-09 tot_iter=      12 conv_iter=       6 cpu clock= 4.50E-01
+ tran: time= 1.8179E-08 tot_iter=     169 conv_iter=      36 cpu clock= 1.16E+00
+ tran: time= 2.9900E-08 tot_iter=     230 conv_iter=      50 cpu clock= 1.39E+00
+ tran: time= 3.8803E-08 tot_iter=     286 conv_iter=      63 cpu clock= 1.63E+00
+ tran: time= 4.9064E-08 tot_iter=     344 conv_iter=      78 cpu clock= 1.84E+00
+ tran: time= 5.5184E-08 tot_iter=     440 conv_iter=      97 cpu clock= 2.28E+00
+ tran: time= 6.3070E-08 tot_iter=     589 conv_iter=     126 cpu clock= 2.85E+00
+ tran: time= 7.2374E-08 tot_iter=     661 conv_iter=     142 cpu clock= 3.13E+00
+ tran: time= 8.1151E-08 tot_iter=     713 conv_iter=     155 cpu clock= 3.31E+00
+ tran: time= 9.0000E-08 tot_iter=     744 conv_iter=     162 cpu clock= 3.44E+00
+ sweep: tran tran0    end,  cpu clock=  3.45E+00 peak memory=        44 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
