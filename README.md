@@ -1,1 +1,1 @@
-# ternary-SRAM-cells
+# Ternary-SRAM-cells
